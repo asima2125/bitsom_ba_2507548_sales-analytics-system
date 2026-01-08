@@ -1,6 +1,5 @@
 def read_sales_data(filename):
     encodings = ["utf-8", "latin-1", "cp1252"]
-
     for enc in encodings:
         try:
             with open(filename, "r", encoding=enc) as f:
@@ -105,3 +104,4 @@ def validate_and_filter(transactions, region=None, min_amount=None, max_amount=N
     }
 
     return valid, invalid, summary
+
