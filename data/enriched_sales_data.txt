@@ -17,4 +17,5 @@ T038|2024-12-03|P106|Headphones|9|2949.0|C009|West||||False
 T040|2024-12-07|P107|USB Cable|2|149.0|C022|West||||False
 T039|2024-12-18|P104|Monitor|3|23488.0|C008|West||||False
 T043|2024-12-07|P104|Monitor|4|22700.0|C005|West||||False
-T047|2024-12-07|P108|External Hard Drive1TB|7|3480.0|C006|West||||False
+T047|2024-12-07|P108|External Hard Drive1TB|7|3480.0|C006|West|||False
+
