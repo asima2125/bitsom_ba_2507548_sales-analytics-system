@@ -1,0 +1,27 @@
+==================================================
+SALES ANALYTICS REPORT
+Generated: 2026-01-08 14:56:49.678638
+Records Processed: 19
+==================================================
+
+OVERALL SUMMARY
+Total Revenue: ₹848,902.00
+Total Transactions: 19
+Date Range: 2024-12-03 to 2024-12-30
+
+REGION PERFORMANCE
+West: ₹848,902.00 (100.0%)
+
+TOP PRODUCTS
+1. Mouse | Qty: 19 | Rev: ₹13,742.00
+2. Wireless Mouse | Qty: 18 | Rev: ₹18,587.00
+3. Monitor | Qty: 16 | Rev: ₹310,745.00
+4. USB Cable | Qty: 10 | Rev: ₹2,836.00
+5. Headphones | Qty: 9 | Rev: ₹26,541.00
+
+PEAK SALES DAY
+2024-12-13 | ₹385,789.00 | 2 transactions
+
+API ENRICHMENT
+Enriched: 0/19
+Failed Products: {'Headphones', 'LaptopPremium', 'External Hard Drive1TB', 'Mouse', 'MouseWireless', 'Webcam', 'Monitor', 'USB Cable', 'Wireless Mouse', 'WebcamHD', 'Keyboard', 'Laptop Charger'}
