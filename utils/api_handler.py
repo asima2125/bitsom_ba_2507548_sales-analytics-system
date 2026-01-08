@@ -1,5 +1,4 @@
 import requests
-
 def fetch_all_products():
     try:
         r = requests.get("https://dummyjson.com/products?limit=100", timeout=10)
@@ -9,7 +8,6 @@ def fetch_all_products():
     except Exception as e:
         print(f"❌ API failure: {e}")
         return []
-
 
 def create_product_mapping(products):
     return {
@@ -61,3 +59,4 @@ def save_enriched_data(data, filename="data/enriched_sales_data.txt"):
         f.write("|".join(headers) + "\n")
         for t in data:
             f.write("|".join("" if t[h] is None else str(t[h]) for h in headers) + "\n")
+
