@@ -1,6 +1,5 @@
 from collections import defaultdict
 
-
 def calculate_total_revenue(transactions):
     return sum(t["Quantity"] * t["UnitPrice"] for t in transactions)
 
@@ -95,3 +94,4 @@ def low_performing_products(transactions, threshold=10):
         [(p, v["qty"], v["rev"]) for p, v in prod.items() if v["qty"] < threshold],
         key=lambda x: x[1]
     )
+
